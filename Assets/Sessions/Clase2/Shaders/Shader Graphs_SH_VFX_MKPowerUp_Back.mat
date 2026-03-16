@@ -40,6 +40,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _ColorGradient:
+        m_Texture: {fileID: 2800000, guid: 61360e181d157f842b85920eb8651bce, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _NormalMap:
         m_Texture: {fileID: 2800000, guid: bdcafe6137ccec247925c1ddae77b4ea, type: 3}
         m_Scale: {x: 0.1, y: 0.1}
@@ -82,6 +86,7 @@ Material:
     - _ZWriteControl: 0
     m_Colors:
     - _CircleParams: {r: 0.8, g: 0.05, b: 0, a: 0}
+    - _NoiseVelocity: {r: 0.2, g: 0.5, b: 0, a: 0}
     - _RefelctionsColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

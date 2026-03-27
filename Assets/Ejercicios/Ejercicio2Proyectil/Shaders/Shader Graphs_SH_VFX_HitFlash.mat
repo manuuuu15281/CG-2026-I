@@ -7,29 +7,29 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: M_VFX_SlashHard 3
-  m_Shader: {fileID: -6465566751694194690, guid: ce5e05d5877262d4494039261cd121a2, type: 3}
+  m_Name: Shader Graphs_SH_VFX_HitFlash
+  m_Shader: {fileID: -6465566751694194690, guid: 65c148bb1dcdee446bccfb48049321c0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _SURFACE_TYPE_TRANSPARENT
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 2
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
-  stringTagMap:
-    RenderType: Transparent
+  stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
-  - DepthOnly
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: 92aa3d3948a4c4c4690384a49ae09d90, type: 3}
+    - _GradientText:
+        m_Texture: {fileID: 2800000, guid: 9e9e66ddfde22844694224e9bb4feb91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainText:
+        m_Texture: {fileID: 2800000, guid: ddaf79a1a258043438789e67e5e0a307, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -46,28 +46,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AlphaClip: 0
-    - _AlphaToMask: 0
-    - _Blend: 0
-    - _CastShadows: 0
-    - _Cull: 2
-    - _DstBlend: 10
-    - _DstBlendAlpha: 10
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _SrcBlend: 5
-    - _SrcBlendAlpha: 1
-    - _Surface: 1
-    - _TIME_CONTROL: 0
-    - _ZTest: 4
-    - _ZWrite: 0
-    - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 2.6594272, g: 6.422234, b: 0.2829178, a: 1}
-    - _SoftParticlesParams: {r: 0, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.90943396, g: 0, b: 0, a: 0.40784314}
+    - _NoiseVelocity: {r: -0.33, g: 3.79, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &1308640968239672955
+--- !u!114 &8842368427882923827
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

@@ -119,6 +119,9 @@
         },
         {
             "m_Id": "eeff6b6b43814ef9941dccf8208aa1c5"
+        },
+        {
+            "m_Id": "65a7e577602e488ba39d62f04ca368b7"
         }
     ],
     "m_GroupDatas": [
@@ -1048,6 +1051,29 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "1c6ce79b664c47cc878d00fdb4d59355",
+    "m_Id": 1,
+    "m_DisplayName": "Direction",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Direction",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "1d1858c58a424b83960bbf4e24c0a3d7",
     "m_Id": 2,
@@ -1451,6 +1477,29 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector3MaterialSlot",
+    "m_ObjectId": "408c3600d3874cea8cff6737fd0bfe8e",
+    "m_Id": 2,
+    "m_DisplayName": "Color",
+    "m_SlotType": 1,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "Color",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+    },
+    "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.Vector3Node",
     "m_ObjectId": "41caef144734487db4e419a1f1e1ddb9",
     "m_Group": {
@@ -1461,10 +1510,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1891.0,
-            "y": -21.999990463256837,
+            "x": -1888.9998779296875,
+            "y": -22.0,
             "width": 128.0,
-            "height": 125.00000762939453
+            "height": 125.0
         }
     },
     "m_Slots": [
@@ -1507,8 +1556,8 @@
     "m_ObjectId": "43e0e676a0844a389a2c234a9ea60d99",
     "m_Title": "Phong Specular",
     "m_Position": {
-        "x": -2273.0,
-        "y": 1354.0
+        "x": -2273.000244140625,
+        "y": 1354.0001220703125
     }
 }
 
@@ -1897,6 +1946,47 @@
         "z": 0.0,
         "w": 0.0
     }
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.SubGraphNode",
+    "m_ObjectId": "65a7e577602e488ba39d62f04ca368b7",
+    "m_Group": {
+        "m_Id": ""
+    },
+    "m_Name": "Main Light",
+    "m_DrawState": {
+        "m_Expanded": true,
+        "m_Position": {
+            "serializedVersion": "2",
+            "x": -3586.000244140625,
+            "y": 1412.000244140625,
+            "width": 0.0,
+            "height": 0.0
+        }
+    },
+    "m_Slots": [
+        {
+            "m_Id": "1c6ce79b664c47cc878d00fdb4d59355"
+        },
+        {
+            "m_Id": "408c3600d3874cea8cff6737fd0bfe8e"
+        }
+    ],
+    "synonyms": [],
+    "m_Precision": 0,
+    "m_PreviewExpanded": true,
+    "m_DismissedVersion": 0,
+    "m_PreviewMode": 0,
+    "m_CustomColors": {
+        "m_SerializableColors": []
+    },
+    "m_SerializedSubGraph": "{\n    \"subGraph\": {\n        \"fileID\": -5475051401550479605,\n        \"guid\": \"ef871b5ebafe40145bff7247510cf25a\",\n        \"type\": 3\n    }\n}",
+    "m_PropertyGuids": [],
+    "m_PropertyIds": [],
+    "m_Dropdowns": [],
+    "m_DropdownSelectedEntries": []
 }
 
 {
@@ -2409,8 +2499,8 @@
     "m_ObjectId": "8b2d1d574f644e82acd64ecd83369066",
     "m_Title": "Light Dir",
     "m_Position": {
-        "x": -1916.0,
-        "y": -80.99994659423828
+        "x": -1914.0001220703125,
+        "y": -81.00001525878906
     }
 }
 
@@ -2897,7 +2987,7 @@
     "m_Title": "Normal map",
     "m_Position": {
         "x": -3700.000244140625,
-        "y": 616.9998779296875
+        "y": 617.0000610351563
     }
 }
 
@@ -4049,7 +4139,7 @@
     "m_Title": "Light Dir",
     "m_Position": {
         "x": -2492.0,
-        "y": 1352.0
+        "y": 1352.0001220703125
     }
 }
 

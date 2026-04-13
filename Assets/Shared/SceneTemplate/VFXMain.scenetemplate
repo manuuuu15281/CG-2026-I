@@ -63,6 +63,8 @@ MonoBehaviour:
   description: Neutral color for vfx
   preview: {fileID: -8081917237985757871}
   dependencies:
+  - dependency: {fileID: -5475051401550479605, guid: 402c6f0af7b80db43a9861292249538b, type: 3}
+    instantiationMode: 1
   - dependency: {fileID: 919132149155446097, guid: d884c095dd81fc64f96c3eb73f077e75, type: 3}
     instantiationMode: 0
   - dependency: {fileID: -5475051401550479605, guid: e1393955b3bb79545bf9bc88028e820d, type: 3}

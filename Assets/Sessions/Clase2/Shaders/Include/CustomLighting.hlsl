@@ -1,5 +1,13 @@
+//Include Guard
+
+#ifndef CUSTOM_LIGHTING_G1
+#define CUSTOM_LIGHTING_G1
+
+
+
 //#include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
-//
+
+
 
 void MainLight_float (float3 PositionWS,out float3 Direction, out float3 Color, out float ShadowAttenuation)//las funciones que vayamos a usar para nodos SIEMPRE tiene que ser un void. Segundo requerimiento: _float (es un sufijo de precisión que debe tener)
 {
@@ -16,18 +24,25 @@ void MainLight_float (float3 PositionWS,out float3 Direction, out float3 Color, 
     #endif
 }
 
-void AdditionalLightsSimple_float(float PositionWS, float3 NormalWS, float3 ViewDirectionWS, out float3 Lit)
+void AdditionalLightsSimple_float(float2 UVSS, float PositionWS, float3 NormalWS, float3 ViewDirectionWS, out float3 Lit)
 {
     #ifdef SHADERGRAPH_PREVIEW
 
     Lit = 0;
 
     #else
-    unit additionalLightCount = GetAdditionalLightsCount();
+    uint additionalLightCount = GetAdditionalLightsCount();
 
   
 
     //TODO: Forward+
+    #ifdef USE_FORWARD_PLUS
+
+    InputData inputData = (InputData)0;
+    inputData.normalizedScreenSpaceUV = UVSS;
+    inputData.positionWS = PositionWS;
+
+    #endif
 
     LIGHT_LOOP_BEGIN(additionalLightCount)
     Light currentLight = GetAdditionalLight(lightIndex, PositionWS);
@@ -58,3 +73,5 @@ void AdditionalLightsSimple_float(float PositionWS, float3 NormalWS, float3 View
 
     #endif
 }
+
+#endif

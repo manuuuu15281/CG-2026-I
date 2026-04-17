@@ -395,6 +395,27 @@
 }
 
 {
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
+    "m_ObjectId": "b16b277c113248c2b0b91377eca8ee9d",
+    "m_Id": 4,
+    "m_DisplayName": "UVSS",
+    "m_SlotType": 0,
+    "m_Hidden": false,
+    "m_ShaderOutputName": "UVSS",
+    "m_StageCapability": 3,
+    "m_Value": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_DefaultValue": {
+        "x": 0.0,
+        "y": 0.0
+    },
+    "m_Labels": []
+}
+
+{
     "m_SGVersion": 1,
     "m_Type": "UnityEditor.ShaderGraph.CustomFunctionNode",
     "m_ObjectId": "dd46fd7c583b4d4799c1f4c144b35baf",
@@ -406,13 +427,16 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -575.199951171875,
-            "y": -92.00001525878906,
+            "x": -575.2000122070313,
+            "y": -93.60000610351563,
             "width": 284.8000183105469,
-            "height": 124.80000305175781
+            "height": 325.5999755859375
         }
     },
     "m_Slots": [
+        {
+            "m_Id": "b16b277c113248c2b0b91377eca8ee9d"
+        },
         {
             "m_Id": "856ed413c23243a88ce86caa7f90de63"
         },

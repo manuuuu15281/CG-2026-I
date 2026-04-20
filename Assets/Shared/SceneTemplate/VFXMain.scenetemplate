@@ -58,31 +58,15 @@ MonoBehaviour:
   m_Script: {fileID: 13966, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: VFXMain
   m_EditorClassIdentifier: UnityEditor.dll::UnityEditor.SceneTemplate.SceneTemplateAsset
-  templateScene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
+  templateScene: {fileID: 102900000, guid: 870b0588961b3e74f8653ddf6dfd8790, type: 3}
   templateName: VFX Main
   description: Neutral color for vfx
   preview: {fileID: -8081917237985757871}
   dependencies:
-  - dependency: {fileID: -5475051401550479605, guid: 402c6f0af7b80db43a9861292249538b, type: 3}
-    instantiationMode: 1
-  - dependency: {fileID: 919132149155446097, guid: d884c095dd81fc64f96c3eb73f077e75, type: 3}
-    instantiationMode: 0
-  - dependency: {fileID: -5475051401550479605, guid: e1393955b3bb79545bf9bc88028e820d, type: 3}
-    instantiationMode: 1
-  - dependency: {fileID: 2800000, guid: 7342dfb6551d9dd4983e960045c01107, type: 3}
-    instantiationMode: 0
-  - dependency: {fileID: 2800000, guid: 3c015374c95c9c34cbe510e6cb30ebd6, type: 3}
-    instantiationMode: 0
-  - dependency: {fileID: 2100000, guid: 4329d5d77a1bfe643a9681b2ed6a0e69, type: 2}
-    instantiationMode: 0
-  - dependency: {fileID: 2100000, guid: aa2bcc58ad59a72498cf338d159489cd, type: 2}
-    instantiationMode: 0
   - dependency: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
     instantiationMode: 1
-  - dependency: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - dependency: {fileID: 2100000, guid: a8eb8f72cc65c854884954c8449cfd9d, type: 2}
     instantiationMode: 0
-  - dependency: {fileID: 10900000, guid: 86d672b13d2bd4e42b800bb5f56654c8, type: 3}
-    instantiationMode: 1
   templatePipeline: {fileID: 0}
   badge: {fileID: 0}
   addToDefaults: 0

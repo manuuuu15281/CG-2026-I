@@ -20,4 +20,4 @@ https://github.com/user-attachments/assets/46623167-3215-45b2-8fd1-ea11f0320c4e
 
 https://github.com/user-attachments/assets/e7ab0360-c628-46c4-b614-338face96c0d
 
-
+Link para acceder a la demo: https://manuuuu15281.github.io/CG-2026-I/
